@@ -1,3 +1,5 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
 * {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -44,4 +46,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.swiper {
+  width: 40%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  margin: 0 auto;
+  width: 384px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
 }

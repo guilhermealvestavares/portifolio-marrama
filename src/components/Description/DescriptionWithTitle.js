@@ -8,11 +8,18 @@ import {
   Wrapper,
 } from "./Description.style";
 
-export const DescriptionWithTitle = ({ title, text, list, template }) => (
+export const DescriptionWithTitle = ({
+  mainTitle,
+  title,
+  text,
+  list,
+  template,
+}) => (
   <Wrapper template={template}>
     {template === "template01" && (
       <>
         <Title> {title} </Title>
+        {mainTitle && <h2>{mainTitle}</h2>}
         <Text>{text}</Text>
       </>
     )}

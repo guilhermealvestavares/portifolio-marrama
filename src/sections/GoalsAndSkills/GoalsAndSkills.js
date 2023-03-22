@@ -11,6 +11,7 @@ export const GoalsAndSKills = () => (
         "Moro em São Paulo e tenho mais de 12 anos de experiência como designer. Sou especialista em mobile UX/UI, prototyping, components e design delivery. Trabalhei em algumas empresas como: Itaú, BTG Pactual e iFood. Acredito que o design, através de processos e metodologias imersivas, pode trazer a voz do cliente para as tomadas de decisão do produto, direcionando resultados para os negócios."
       }
     />
+
     <Wrapper>
       <DescriptionWithTitle
         template="template01"
