@@ -17,3 +17,7 @@ export const Icons = styled.span`
   font-size: 24px;
   margin-right: 46px;
 `;
+
+export const WrapperAbout = styled.div`
+  width: 45%;
+`;

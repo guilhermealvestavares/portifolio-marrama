@@ -1,16 +1,20 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Homepage, FeedIfood, DiscoveryHome } from "./pages";
 import { Footer } from "./components/Footer";
-import Container from "react-bootstrap/Container";
-import { GoalsAndSKills } from "./sections/GoalsAndSkills";
-import { About } from "./sections/About";
 
 function App() {
   return (
     <>
-      <Container>
-        <GoalsAndSKills />
-        <About />
-      </Container>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route index element={<Homepage />} />
+          <Route path="/cases/feed-ifood" element={<FeedIfood />} />
+          <Route path="/cases/discovery-home" element={<DiscoveryHome />} />
+        </Routes>
+      </BrowserRouter>
+
       <Footer email="rafaelmarrama@gmail.com" />
     </>
   );

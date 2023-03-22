@@ -3,7 +3,7 @@ import {
   DescriptionWithTitle,
 } from "../../components/Description";
 
-import { Wrapper } from "./GoalsAndSkills.style";
+import { Wrapper, Goals } from "./GoalsAndSkills.style";
 export const GoalsAndSKills = () => (
   <>
     <SimpleDescription
@@ -13,13 +13,16 @@ export const GoalsAndSKills = () => (
     />
 
     <Wrapper>
-      <DescriptionWithTitle
-        template="template01"
-        title={"goals"}
-        text={
-          "Como designer, meu principal objetivo é descobrir maneiras de conectar pessoas usuárias a um produto. Gosto de me guiar não apenas por pesquisas, mas também por dados para ajudar as empresas a criarem valor para seus clientes. Gosto também de trabalhar com diferentes perfis de negócios; stakeholders, gerentes de produto, desenvolvedores, designers e usuários."
-        }
-      />
+      <Goals>
+        <DescriptionWithTitle
+          template="template01"
+          title={"goals"}
+          text={
+            "Como designer, meu principal objetivo é descobrir maneiras de conectar pessoas usuárias a um produto. Gosto de me guiar não apenas por pesquisas, mas também por dados para ajudar as empresas a criarem valor para seus clientes. Gosto também de trabalhar com diferentes perfis de negócios; stakeholders, gerentes de produto, desenvolvedores, designers e usuários."
+          }
+        />
+      </Goals>
+
       <DescriptionWithTitle
         template="template02"
         title={"skills"}

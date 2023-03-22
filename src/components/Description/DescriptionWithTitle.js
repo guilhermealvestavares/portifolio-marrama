@@ -1,11 +1,12 @@
 import {
   Title,
   Text,
-  ListItem,
+  Badge,
   ListItemWithImage,
   ListItemImage,
   ListWrapper,
   Wrapper,
+  WrapperRoles,
 } from "./Description.style";
 
 export const DescriptionWithTitle = ({
@@ -14,13 +15,15 @@ export const DescriptionWithTitle = ({
   text,
   list,
   template,
+  roles,
+  maxWidth,
 }) => (
   <Wrapper template={template}>
     {template === "template01" && (
       <>
         <Title> {title} </Title>
         {mainTitle && <h2>{mainTitle}</h2>}
-        <Text>{text}</Text>
+        <Text maxWidth={maxWidth}>{text}</Text>
       </>
     )}
 
@@ -45,6 +48,16 @@ export const DescriptionWithTitle = ({
             <Text style={{ width: "260px" }}>{text}</Text>
           </ListItemWithImage>
         </ListWrapper>
+      </>
+    )}
+    {template === "template03" && (
+      <>
+        <Title> {title} </Title>
+        <WrapperRoles>
+          {roles?.map((item) => (
+            <Badge>{item}</Badge>
+          ))}
+        </WrapperRoles>
       </>
     )}
   </Wrapper>

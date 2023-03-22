@@ -1,11 +1,11 @@
 import { DescriptionWithTitle } from "../../components/Description";
 import { Carrousel } from "../../components/Carrousel";
-import { Wrapper, ListIcons, Icons } from "./About.style";
+import { Wrapper, ListIcons, Icons, WrapperAbout } from "./About.style";
 
 export const About = () => (
   <>
     <Wrapper>
-      <div>
+      <WrapperAbout>
         <DescriptionWithTitle
           template="template01"
           mainTitle="Drums, Sneakers, Dogs & Product Design."
@@ -21,7 +21,7 @@ export const About = () => (
           <Icons>🚵‍♂️</Icons>
           <Icons>👟</Icons>
         </ListIcons>
-      </div>
+      </WrapperAbout>
 
       <Carrousel />
     </Wrapper>

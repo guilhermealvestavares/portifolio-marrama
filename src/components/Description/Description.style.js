@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  ${({ template }) =>
+  ${({ template, maxWidth }) =>
     template === "template01" &&
     `
   width: 100%;
-  max-width: 470px;
 `}
 
   ${({ template }) =>
@@ -38,10 +37,6 @@ export const Text = styled.p`
   color: #767676;
 `;
 
-export const ListItem = styled.li`
-  background-color: #fc0;
-`;
-
 export const ListItemWithImage = styled.li`
   display: flex;
 `;
@@ -56,4 +51,22 @@ export const ListWrapper = styled.ul`
 export const ListItemImage = styled.img`
   margin-right: 22px;
   height: 20px;
+`;
+
+export const Badge = styled.span`
+  margin-bottom: 14px;
+  display: block;
+  text-align: center;
+  padding: 7px 0px;
+  border: 1px solid #e0e0e0;
+  border-radius: 40px;
+  width: 104px;
+  font-weight: 500;
+  font-size: 11px;
+  margin-right: 8px;
+`;
+
+export const WrapperRoles = styled.div`
+  display: flex;
+  flex-wrap: wrap;
 `;
