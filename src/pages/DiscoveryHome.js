@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { ProjectInfos } from "../sections/ProjectInfos";
 import { Intro } from "../sections/Intro";
+import { Process } from "../sections/Process";
 
 export const DiscoveryHome = () => {
   return (
@@ -20,6 +21,7 @@ export const DiscoveryHome = () => {
             "Ter mais controle e influencia na jornada dos nossos usuários iFood. Provocando gatilhos de forma estruturada e intencional, para que experimentem todos os nossos produtos, verticais e ofertas. Aumentando sua frequência de compra."
           }
         />
+        <Process />
       </Container>
     </>
   );

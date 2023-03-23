@@ -17,16 +17,10 @@ export const Footer = () => (
       <Cases>
         <SectionTitle>Cases</SectionTitle>
         <CasesGrid>
-          <ListItemClick
-            href="https://www.linkedin.com/in/rafaelmarrama/"
-            target="blank"
-          >
+          <ListItemClick href="/cases/feed-ifood">
             <CasesItem src={"https://i.imgur.com/QnAADuj.png"} />
           </ListItemClick>
-          <ListItemClick
-            href="https://www.linkedin.com/in/rafaelmarrama/"
-            target="blank"
-          >
+          <ListItemClick href="/cases/discovery-home">
             <CasesItem src={"https://i.imgur.com/lJauTXP.png"} />
           </ListItemClick>
         </CasesGrid>

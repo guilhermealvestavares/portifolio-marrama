@@ -64,6 +64,7 @@ export const Badge = styled.span`
   font-weight: 500;
   font-size: 11px;
   margin-right: 8px;
+  color: #767676;
 `;
 
 export const WrapperRoles = styled.div`
