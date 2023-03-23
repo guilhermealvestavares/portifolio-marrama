@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portifolio-marrama/static/css/main.39d4fa0b.css",
+    "main.js": "/portifolio-marrama/static/js/main.c8dec257.js",
+    "static/js/787.d5e7e1c3.chunk.js": "/portifolio-marrama/static/js/787.d5e7e1c3.chunk.js",
+    "index.html": "/portifolio-marrama/index.html",
+    "main.39d4fa0b.css.map": "/portifolio-marrama/static/css/main.39d4fa0b.css.map",
+    "main.c8dec257.js.map": "/portifolio-marrama/static/js/main.c8dec257.js.map",
+    "787.d5e7e1c3.chunk.js.map": "/portifolio-marrama/static/js/787.d5e7e1c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39d4fa0b.css",
+    "static/js/main.c8dec257.js"
+  ]
+}
