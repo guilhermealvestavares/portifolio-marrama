@@ -1,15 +1,26 @@
 {
   "files": {
     "main.css": "/portifolio-marrama/static/css/main.39d4fa0b.css",
-    "main.js": "/portifolio-marrama/static/js/main.c8dec257.js",
+    "main.js": "/portifolio-marrama/static/js/main.5c30b158.js",
     "static/js/787.d5e7e1c3.chunk.js": "/portifolio-marrama/static/js/787.d5e7e1c3.chunk.js",
+    "static/media/kamban.png": "/portifolio-marrama/static/media/kamban.a3494b9d84d6e6848b90.png",
+    "static/media/mock-offers-03.png": "/portifolio-marrama/static/media/mock-offers-03.2b8b0f82c2a43509a911.png",
+    "static/media/mock-renew-03.png": "/portifolio-marrama/static/media/mock-renew-03.9ea499da87577af60496.png",
+    "static/media/mock-active-01.png": "/portifolio-marrama/static/media/mock-active-01.ceccb7f408303b5db00a.png",
+    "static/media/mock-offers-01.png": "/portifolio-marrama/static/media/mock-offers-01.f987dc69e77c7f2a3e33.png",
+    "static/media/mock-active-02.png": "/portifolio-marrama/static/media/mock-active-02.e6ef05220d5f79c4079a.png",
+    "static/media/mock-active-03.png": "/portifolio-marrama/static/media/mock-active-03.8ea9c0e3ccdec6cae306.png",
+    "static/media/mock-renew-02.png": "/portifolio-marrama/static/media/mock-renew-02.026f83873f6d8873511f.png",
+    "static/media/mock-offers-02.png": "/portifolio-marrama/static/media/mock-offers-02.bc7e134b71193753345f.png",
+    "static/media/mock-renew-01.png": "/portifolio-marrama/static/media/mock-renew-01.da1ddc3152dcaeb30a0b.png",
+    "static/media/wireframe.png": "/portifolio-marrama/static/media/wireframe.297b172f139687b34e62.png",
     "index.html": "/portifolio-marrama/index.html",
     "main.39d4fa0b.css.map": "/portifolio-marrama/static/css/main.39d4fa0b.css.map",
-    "main.c8dec257.js.map": "/portifolio-marrama/static/js/main.c8dec257.js.map",
+    "main.5c30b158.js.map": "/portifolio-marrama/static/js/main.5c30b158.js.map",
     "787.d5e7e1c3.chunk.js.map": "/portifolio-marrama/static/js/787.d5e7e1c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39d4fa0b.css",
-    "static/js/main.c8dec257.js"
+    "static/js/main.5c30b158.js"
   ]
 }
