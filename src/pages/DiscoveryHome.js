@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import { ProjectInfos } from "../sections/ProjectInfos";
 import { Intro } from "../sections/Intro";
 import { Process } from "../sections/Process";
+import { UserProfile } from "../sections/UserProfile";
+import { Insights } from "../sections/Insights";
 
 export const DiscoveryHome = () => {
   return (
@@ -22,6 +24,33 @@ export const DiscoveryHome = () => {
           }
         />
         <Process />
+      </Container>
+      <UserProfile />
+      <Container>
+        <Insights
+          information="Oferta de clube"
+          images={[
+            { src: "https://placeimg.com/258/557/any" },
+            { src: "https://placeimg.com/258/557/any" },
+            { src: "https://placeimg.com/258/557/any" },
+          ]}
+        />
+        <Insights
+          information="Clube Ativo"
+          images={[
+            { src: "https://placeimg.com/258/557/any" },
+            { src: "https://placeimg.com/258/557/any" },
+            { src: "https://placeimg.com/258/557/any" },
+          ]}
+        />
+        <Insights
+          information="Renovar Clube"
+          images={[
+            { src: "https://placeimg.com/258/557/any" },
+            { src: "https://placeimg.com/258/557/any" },
+            { src: "https://placeimg.com/258/557/any" },
+          ]}
+        />
       </Container>
     </>
   );
