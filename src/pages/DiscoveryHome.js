@@ -5,6 +5,15 @@ import { Intro } from "../sections/Intro";
 import { Process } from "../sections/Process";
 import { UserProfile } from "../sections/UserProfile";
 import { Insights } from "../sections/Insights";
+import mockOffers01 from "./images/mock-offers-01.png";
+import mockOffers02 from "./images/mock-offers-02.png";
+import mockOffers03 from "./images/mock-offers-03.png";
+import mockActive01 from "./images/mock-active-01.png";
+import mockActive02 from "./images/mock-active-02.png";
+import mockActive03 from "./images/mock-active-03.png";
+import mockRenew01 from "./images/mock-renew-01.png";
+import mockRenew02 from "./images/mock-renew-02.png";
+import mockRenew03 from "./images/mock-renew-03.png";
 
 export const DiscoveryHome = () => {
   return (
@@ -30,25 +39,25 @@ export const DiscoveryHome = () => {
         <Insights
           information="Oferta de clube"
           images={[
-            { src: "https://placeimg.com/258/557/any" },
-            { src: "https://placeimg.com/258/557/any" },
-            { src: "https://placeimg.com/258/557/any" },
+            { src: mockOffers01 },
+            { src: mockOffers02 },
+            { src: mockOffers03 },
           ]}
         />
         <Insights
           information="Clube Ativo"
           images={[
-            { src: "https://placeimg.com/258/557/any" },
-            { src: "https://placeimg.com/258/557/any" },
-            { src: "https://placeimg.com/258/557/any" },
+            { src: mockActive01 },
+            { src: mockActive02 },
+            { src: mockActive03 },
           ]}
         />
         <Insights
           information="Renovar Clube"
           images={[
-            { src: "https://placeimg.com/258/557/any" },
-            { src: "https://placeimg.com/258/557/any" },
-            { src: "https://placeimg.com/258/557/any" },
+            { src: mockRenew01 },
+            { src: mockRenew02 },
+            { src: mockRenew03 },
           ]}
         />
       </Container>

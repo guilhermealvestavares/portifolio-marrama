@@ -11,6 +11,8 @@ import {
   OpportunitiesWrapper,
 } from "./Process.style";
 
+import kambanImage from "./images/kamban.png";
+import wireframeImage from "./images/wireframe.png";
 export const Process = () => (
   <>
     <Wrapper>
@@ -38,8 +40,8 @@ export const Process = () => (
         </List>
       </DesignProcessWrapper>
       <ImagesWrapper>
-        <Image src="https://placeimg.com/384/450/any/grayscale" />
-        <Image src="https://placeimg.com/384/450/any/grayscale" />
+        <Image src={kambanImage} />
+        <Image src={wireframeImage} />
       </ImagesWrapper>
     </Wrapper>
     <Wrapper alignItems="flex-start">
