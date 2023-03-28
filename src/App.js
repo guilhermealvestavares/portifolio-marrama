@@ -8,10 +8,16 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="portifolio-marrama/" element={<Homepage />} />
           <Route index element={<Homepage />} />
-          <Route path="/cases/feed-ifood" element={<FeedIfood />} />
-          <Route path="/cases/discovery-home" element={<DiscoveryHome />} />
+          <Route
+            path="portifolio-marrama/cases/feed-ifood"
+            element={<FeedIfood />}
+          />
+          <Route
+            path="portifolio-marrama/cases/discovery-home"
+            element={<DiscoveryHome />}
+          />
         </Routes>
       </BrowserRouter>
 

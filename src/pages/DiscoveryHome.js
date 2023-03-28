@@ -5,6 +5,7 @@ import { Intro } from "../sections/Intro";
 import { Process } from "../sections/Process";
 import { UserProfile } from "../sections/UserProfile";
 import { Insights } from "../sections/Insights";
+import { Hero } from "../sections/Hero";
 import mockOffers01 from "./images/mock-offers-01.png";
 import mockOffers02 from "./images/mock-offers-02.png";
 import mockOffers03 from "./images/mock-offers-03.png";
@@ -14,10 +15,12 @@ import mockActive03 from "./images/mock-active-03.png";
 import mockRenew01 from "./images/mock-renew-01.png";
 import mockRenew02 from "./images/mock-renew-02.png";
 import mockRenew03 from "./images/mock-renew-03.png";
+import heroClubeNaHome from "./images/hero-clube-na-home.png";
 
 export const DiscoveryHome = () => {
   return (
     <>
+      <Hero src={heroClubeNaHome} title={"Discovery → Clube na home"} />
       <Container>
         <ProjectInfos
           paper={"Product Design / Research"}
