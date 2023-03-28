@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portifolio-marrama/static/css/main.39d4fa0b.css",
-    "main.js": "/portifolio-marrama/static/js/main.0f3cea53.js",
+    "main.js": "/portifolio-marrama/static/js/main.80caadbf.js",
     "static/js/787.d5e7e1c3.chunk.js": "/portifolio-marrama/static/js/787.d5e7e1c3.chunk.js",
     "static/media/hero-clube-na-home.png": "/portifolio-marrama/static/media/hero-clube-na-home.bfc39ae33275800a4ead.png",
     "static/media/kamban.png": "/portifolio-marrama/static/media/kamban.a3494b9d84d6e6848b90.png",
@@ -17,11 +17,11 @@
     "static/media/wireframe.png": "/portifolio-marrama/static/media/wireframe.297b172f139687b34e62.png",
     "index.html": "/portifolio-marrama/index.html",
     "main.39d4fa0b.css.map": "/portifolio-marrama/static/css/main.39d4fa0b.css.map",
-    "main.0f3cea53.js.map": "/portifolio-marrama/static/js/main.0f3cea53.js.map",
+    "main.80caadbf.js.map": "/portifolio-marrama/static/js/main.80caadbf.js.map",
     "787.d5e7e1c3.chunk.js.map": "/portifolio-marrama/static/js/787.d5e7e1c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39d4fa0b.css",
-    "static/js/main.0f3cea53.js"
+    "static/js/main.80caadbf.js"
   ]
 }
